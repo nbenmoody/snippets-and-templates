@@ -1,0 +1,18 @@
+<!DOCTYPE hmtl>
+
+<hmtl xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Get Response Example</title>
+        <link rel="stylesheet" th:href="@{/styles.css}" />
+    </head>
+
+    <body>
+        <h1>This is a POST response!</h1>
+        <p>Hear it roar!</p>
+        <p th:text="${someMoreText}">PLACEHOLDER TEXT</p>
+
+        <div th:each="thing : ${thingsOnList}">
+            <h3 th:text="${thing}">PLACEHOLDER TEXT</h3><br/>
+        </div>
+    </body>
+</hmtl>
