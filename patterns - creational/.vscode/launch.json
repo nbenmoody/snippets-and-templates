@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SingletonPattern",
+            "request": "launch",
+            "mainClass": "SingletonPattern",
+            "projectName": "patterns - creational_bd95a5e2"
+        }
+    ]
+}
